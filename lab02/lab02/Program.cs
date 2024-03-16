@@ -12,7 +12,13 @@ class Program
 
     public static double AvgVal(int[] tab)
     {
-        return tab.Average();
+        double sum = 0;
+        for (int i = tab.Length - 1; i >= 0; i--)
+        {
+            sum += tab[i];
+        }
+        double result = sum / tab.Length;
+        return result;
     }
 
     public static int MaxVal(int[] tab)
