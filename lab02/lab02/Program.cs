@@ -2,15 +2,15 @@
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("Test commit z domu");
-        Console.WriteLine("Test");
-
-        int[] tab = new[] { 32, 12, 5, 65, 15 };
-        Console.WriteLine(MaxVal(tab));
+   Console.WriteLine("Branch nr 2");
+        
+        int[] tab = { 32, 12, 5, 65, 15 };
+        
+        Console.WriteLine(AvgVal(tab));
     }
 
-    public static int MaxVal(int[] tab)
+    public static double AvgVal(int[] tab)
     {
-        return tab.Max();
+        return tab.Average();
     }
 }
