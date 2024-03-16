@@ -2,7 +2,7 @@
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("Branch nr 2");
+   Console.WriteLine("Branch nr 2");
         
         int[] tab = { 32, 12, 5, 65, 15 };
         
