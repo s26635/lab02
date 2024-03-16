@@ -6,11 +6,11 @@ class Program
         Console.WriteLine("Test");
 
         int[] tab = { 32, 12, 5, 65, 15 };
-        Console.WriteLine(AvgVal(tab));
+        Console.WriteLine(AvgValOfArray(tab));
         Console.WriteLine(MaxVal(tab));
     }
 
-    public static double AvgVal(int[] tab)
+    public static double AvgValOfArray(int[] tab)
     {
         double sum = 0;
         for (int i = tab.Length - 1; i >= 0; i--)
