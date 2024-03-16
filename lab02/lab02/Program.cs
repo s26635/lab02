@@ -12,12 +12,12 @@ class Program
 
     public static double AvgValOfArray(int[] tab)
     {
-        double sum = 0;
+        int sum = 0;
         for (int i = tab.Length - 1; i >= 0; i--)
         {
             sum += tab[i];
         }
-        double result = sum / tab.Length;
+        int result = sum / tab.Length;
         return result;
     }
 
